@@ -14,7 +14,7 @@ prisma = "^0.15.0"
 python-dotenv = "^1.0.1"
 uvicorn = "^0.34.0"
 fastapi = "^0.115.6"
-sentry-sdk = { extras = ["fastapi"], version = "^2.19.2" }
+sentry-sdk = { extras = ["fastapi"], version = "^2.29.1" }
 fuzzywuzzy = "^0.18.0"
 python-levenshtein = "^0.26.1"
 # autogpt-platform-backend = { path = "../backend", develop = true }
@@ -27,11 +27,11 @@ pytest = "^8.3.4"
 pytest-asyncio = "^0.25.0"
 
 pytest-watcher = "^0.4.3"
-requests = "^2.32.3"
+requests = "^2.32.4"
 ruff = "^0.8.3"
 pyright = "^1.1.390"
 isort = "^5.13.2"
-black = "^24.10.0"
+black = "^25.1.0"
 
 [build-system]
 requires = ["poetry-core"]
